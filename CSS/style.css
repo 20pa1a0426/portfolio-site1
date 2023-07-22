@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("/images/bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+} 
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card {
+    cursor:pointer;
+
+}
+
+.card:hover{
+    background-color: #5b464d;
+    border: 2px solid #99cc33;
+
+}
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+
+.card-img-fluid
+{
+    width: 115px;
+    height:115px;
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  border-radius: 50%;
+}
